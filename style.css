@@ -172,12 +172,10 @@
     font-size: 1.1rem;
     font-weight: 700;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transition:  0.5s ease-in-out;
   }
   .result-summary button:hover{
-    /* "ERROR" COLOR DOSN'T CHANGE*/
-    background-color:  linear-gradient(hsl(252, 100%, 67%),
-    hsl(241, 81%, 54%));
+   background: linear-gradient(to bottom, var(--Light-slate-blue),var(--Light-royal-blue));
+    transition: all 0.3s ease;
     transform: scale(1.1);
   }
 
